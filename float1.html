@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="float1.css">
+    <title>Float Examples</title>
+</head>
+<body>
+    <h1>Images Side by Side</h1>
+    <p>Float images side by side:</p>
+
+    <div class="clearfix">
+        <div class="img-container">
+            <img src="images/jacob-weinzettel-8-zjb7rnftc-unsplash.jpg" alt="Jacob">
+        </div>
+        <div class="img-container">
+            <img src="images/laurent-peignault-jq14QQAZRls-unsplash.jpg" alt="Laurent">
+        </div>
+        <div class="img-container">
+            <img src="images/rune-enstad-UXFJ-6Zj27M-unsplash.jpg" alt="rune">
+        </div>
+    </div>
+    <br>
+    <p>Note that we also use the clearfix hack to take care of the layout flow, <br>and that we add the box-sizing property to make sure that the image container doesn't break due to extra padding. <br>Try to remove this code to see the effect.</p>
+    
+</body>
+</html>
